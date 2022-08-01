@@ -1,0 +1,7 @@
+cd ../lib
+make clean
+make lib
+sleep 1
+cd ../app
+make clean
+make install
